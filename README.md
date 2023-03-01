@@ -2,7 +2,7 @@
 
 **Maike Morrison and Noah Rosenberg**
 
-The file entropy_bounds.R contains the following functions
+The file entropy_bounds.R contains the following functions:
 
 * `H` computes the Shannon entropy of a non-negative vector that sums to 1 (`p`)
 
