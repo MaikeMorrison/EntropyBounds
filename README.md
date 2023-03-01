@@ -12,4 +12,4 @@ The file entropy_bounds.R contains the following functions:
 
 * `Hmax` computes the upper bound on Shannon entropy given a non-negative vector that sums to 1 (`p`) and an index (`i`)
 
-* `Hmin` computes the lower bound on Shannon entropy given a non-negative vector that sums to 1 (`p`) and an index (`i`)
+* `Hmin` computes the lower bound on Shannon entropy given the same inputs as `Hmax` 
