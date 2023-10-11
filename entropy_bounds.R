@@ -5,6 +5,9 @@
     # Mathematical bounds on Shannon entropy 
     # given the abundance of the ith most abundant taxon
 
+# install.packages("dplyr")
+library(dplyr)
+
 # Define -p_i*log(p_i) for a single observation (so that -0log0=0)
 neg_p_logp <- function(pi){if(is.na(pi)){NA} else if (pi==1){0} else if (pi==0){0} else{-pi*log(pi)}}
 
